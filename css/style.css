@@ -1,0 +1,53 @@
+body {
+    background-color: #00130d;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-family: AppleSDGothicNeoH;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+.join-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-input[type="text"] {
+    background-color: inherit;
+    width: 30em;
+    border: none;
+    border-bottom: 1px solid #d2ae2a;
+}
+
+.join-input::placeholder {
+    color: #d2ae2a;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.join-input:focus {
+    text-align: center;
+    outline: none;
+}
+
+.btn {
+    background-color: inherit;
+    border-right: none;
+    width: 100%;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 2px;
+}
